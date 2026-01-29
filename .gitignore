@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+**/node_modules/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE/Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files (optional - keep if you want reproducible builds)
+# uv.lock
+
+# Temporary files
+*.timestamp-*.mjs
+*.timestamp*.mjs
+*.tmp
+vite.config.ts.timestamp*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# OS files
+Thumbs.db
+
+# Claude/AI folders
+.claude/
+
+# Vite cache
+.vite/
